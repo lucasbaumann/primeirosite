@@ -6,13 +6,34 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <h1>Task Timeline</h1>
-    <p id="date"></p>
-    <ul>
-        <li class="list">Edit the head</li>
-        <li class="list">Edit the body</li>
-        <li>Link to JavaScript</li>
-    </ul>
+    <header class="page-header"
+    data-testid="header">
+        <a href title="Ambiente Contábil Único" class="logo" itemprop="url" accesskey="h">
+            <img src="http://www.sciunico.com.br/template/imagens/unico-logotipo-pequeno.png" alt="Ambiente Contábil Único" itemprop="logo">
+        </a>
+        <div class="header-date">
+            <form id="date"></form>
+        </div>
+    </header>
+
+    <form name="dados_contato">
+
+    <h1>Suporte Único - Entre em contato</h1>
+    
+    <input type="text" id="nomeid" placeholder="Ex: Tiago Vale" required="required" name="nome" />
+    <label for="nome">Nome</label>
+
+    <input type="tel" id="foneid" placeholder="Ex: (xx)xxxxx-xxxx" name="fone" />
+    <label for="Fone">Fone</label>
+
+    <input type="email" id="emailid" placeholder="Ex: seuemail@exemplo.com.br" name="email" />
+    <label for="email">Email</label>
+
+    <textarea placeholder="Deixe sua mensagem"></textarea>
+
+    <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+
+    </form>
     <script src="app.js"></script>
     <noscript>Seu JavaScript está desativado, ative para ver todo o site.</noscript>
 </body>

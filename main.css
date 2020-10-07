@@ -1,9 +1,64 @@
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(238, 248, 255);     /* pale green */
+    color: rgb(37, 50, 109);                /* dark green */
+    font-family: 'Franklin Gothic Medium';
+}
+
+form {
+    font-family: Verdana;
+    font-size: 16px;
+    max-width: 800px;
+}
+
+input, textarea {
+    width: 200px;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.page-header {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 40px 2fr 80px;
+}
+
+.header.date {
+    box-sizing: border-box;
+    position: absolute;
+    top: -62px;
+    right: 75px;
+    width: 100vw;
+    height: 68px;
+}
+
+.header-date form {
+    display: flex;
+    flex-direction: row;
+    height: 68px;
+    box-sizing: border-box;
+    align-items: flex-end;
+
+}
+
+
+
+h1 {
+    border-top: 4px solid rgb(71, 99, 71); /* mid green */
+    border-bottom: 4px solid rgb(71, 99, 71); /* mid green */
+    background-color: rgb(243, 255, 153);     /* pale green */
+    color: rgb(37, 50, 109);                /* dark green */
+    font-family: 'Franklin Gothic Medium';
 }
 
 ul {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #efe;     /* pale green */
+    color: rgb(37, 50, 109);                /* dark green */
+    font-family: 'Lucida Grande';
 }
 
 li {
