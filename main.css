@@ -74,3 +74,21 @@ li {
     font-style: italic;
     font-weight: bold;
 }
+
+.vermelho{
+    background-color: red;
+}
+.preto{
+    background-color: black;
+}
+.azul{
+    background-color: blue;
+}
+
+table {
+    margin-top: 20px;
+    font-family: Verdana;
+    font-size: 20px;
+    color: white;
+
+}
